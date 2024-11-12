@@ -14,7 +14,6 @@ function AppFunction() {
         <Route path= "/" element={<Navigate to="/login"/>}/>
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/profile" element={<Profile />} />
         <Route path="/dashboard" element={<Dashboard />}>
           <Route path="users" element={<Users />} />
           <Route path="products" element={<Products />} />
