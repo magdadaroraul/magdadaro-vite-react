@@ -15,6 +15,11 @@ const Sidebar = () => {
             Products
           </Link>
         </li>
+        <li>
+          <Link to="/dashboard/profile" className="nav-link">
+            Profile
+          </Link>
+        </li>
       </ul>
     </div>
   );
