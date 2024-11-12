@@ -5,7 +5,7 @@ import Login from './pages/Login';
 import Dashboard from './components/Dashboard';
 import Users from './components/Users';
 import Products from './components/Products';
-//import Profile from './pages/Profile';
+import Profile from './components/Profile';
 
 function AppFunction() {
   return (
@@ -15,6 +15,7 @@ function AppFunction() {
         <Route path="/login" element={<Login />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/dashboard" element={<Dashboard />}>
+          <Route path="profile" element={<Profile />} /> 
           <Route path="users" element={<Users />} />
           <Route path="products" element={<Products />} />
         </Route>
