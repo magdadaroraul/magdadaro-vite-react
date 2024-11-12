@@ -94,7 +94,7 @@ const ProductForm = () => {
 
 
   return (
-    <div style={{ marginLeft: '650px' }}>
+    <div style={{ marginLeft: '10px' }}>
       <h2>{editMode ? "Edit Product" : "Add Product"}</h2>
       <Form>
         <Form.Group className="mb-3" controlId="formProductCode">
