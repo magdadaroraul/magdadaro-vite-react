@@ -5,7 +5,7 @@ import Login from './pages/Login';
 import Dashboard from './components/Dashboard';
 import Users from './components/Users';
 import Products from './components/Products';
-import Profile from './pages/Profile';
+//import Profile from './pages/Profile';
 
 function AppFunction() {
   return (
